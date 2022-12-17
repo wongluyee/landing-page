@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: #1F2937;
-    padding:0 48px;
+    padding:0 200px;
 }
 
 .header {
@@ -19,4 +19,40 @@ body {
 
 #logo {
     margin-right:auto;
+}
+
+img {
+    width:450px;
+    border:#F9FAF8 solid 3px;
+}
+
+.section-one {
+    padding-top:24px;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin-top:8px;
+    padding:8px;
+    background: #3882F6;
+    color:#F9FAF8;
+    border-radius: 8px;
+}
+
+button:hover {
+    background: #2757a5;
+    color:#afafaf;
+}
+
+.main-text {
+    color:#F9FAF8;
+    font-size:48px;
+    font-weight: 900;
+}
+
+.sub-text {
+    padding-top: 8px;
+    padding-right:80px;
+    color:#ccced1;
 }
