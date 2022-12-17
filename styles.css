@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #1F2937;
+    padding:0 48px;
+}
+
+.header {
+    background:#1F2937;
+    color:#F9FAF8;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:12px;
+}
+
+.header-link {
+    color: #ccced1;
+}
+
+#logo {
+    margin-right:auto;
+}
