@@ -106,7 +106,7 @@ button:hover {
     font-style: italic;
     font-weight: 100;
     color:#1F2937;
-    padding:120px;
+    padding:80px;
     display:flex;
     flex-direction:column;
 }
@@ -118,4 +118,47 @@ button:hover {
     color:#1F2937;
     align-self:flex-end;
     margin-top:8px;
+}
+
+.section-four {
+    background:#F9FAFB;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:100px 200px;
+}
+
+.sign-up-box {
+    background:#3882F6;
+    border-radius: 6px;
+    padding:50px 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-text {
+    display:flex;
+    flex-direction:column;
+}
+
+.sign-up-title {
+    color:#F9FAFB;
+    font-weight:600;
+    font-size:24px;
+}
+
+.sign-up-subtext {
+    color:#ccced1;
+    font-weight:300;
+    margin-top:8px;
+}
+
+.sign-up-button {
+    border:#F9FAFB solid 2px;
+    border-radius: 6px;
+    align-self: flex-end;
+    font-size:24px;
+    margin-left:24px;;
 }
