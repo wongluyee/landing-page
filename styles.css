@@ -55,6 +55,7 @@ button:hover {
     padding-top: 8px;
     padding-right:80px;
     color:#ccced1;
+    font-weight:300;
 }
 
 .section-two {
@@ -161,4 +162,13 @@ button:hover {
     align-self: flex-end;
     font-size:24px;
     margin-left:24px;;
+}
+
+.footer {
+    color:#F9FAFB;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding:36px 200px;
+    font-weight: 200;
 }
