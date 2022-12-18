@@ -94,13 +94,10 @@ button:hover {
 }
 
 .section-three {
-    background:#bdbdbd;
+    background:#e9e8e8;
     display:flex;
     justify-content:center;
     align-items: center;
-    flex-direction:column;
-    gap:20px;
-    flex-wrap: wrap;
     padding:36px 200px;
 }
 
@@ -110,8 +107,15 @@ button:hover {
     font-weight: 100;
     color:#1F2937;
     padding:120px;
+    display:flex;
+    flex-direction:column;
 }
 
 #author {
-
+    font-size:20px;
+    font-weight:700;
+    font-style:normal;
+    color:#1F2937;
+    align-self:flex-end;
+    margin-top:8px;
 }
